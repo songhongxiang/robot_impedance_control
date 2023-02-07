@@ -1,4 +1,4 @@
-%运行仿真前，先加载此代码
+%杩愯浠跨湡鍓嶏紝鍏堝姞杞芥浠ｇ爜
 rootDir = fileparts(which(mfilename));
 addpath(genpath('ROCR6II_URDF_file'),genpath('CAD_Model'));
 if ~isfolder('work')
@@ -7,3 +7,7 @@ else
     addpath('work');end
 
 Simulink.fileGenControl('set','CacheFolder','work','CodeGenFolder','work');
+
+
+---
+[https://www.jianshu.com/p/bc1153523024](https://www.jianshu.com/p/bc1153523024)
